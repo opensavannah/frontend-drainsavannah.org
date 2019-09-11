@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="manifest" href="../icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="aIdbtKoEblR178oESmhvVpK2kTPXMCPZTXlMBK6L">
+
+    <title>Adopt-a-Drain</title>
+
+    <!-- Styles -->
+    <link href="../css/app-id=16244bf2be1b449e1d7b.css" rel="stylesheet">
+
+    <!-- Polyfill for IE11 -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces2015%2Ces2017%2Ces2016"></script>
+
+    <script>
+        window.App = {
+            changeRegionUrl: '',
+            gmapsKey: 'AIzaSyDQAbO5Z9uuFaydA_4_doX55i-2DTapE00',
+            region: '',
+        };
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-141662302-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '696488524122751');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=696488524122751&amp;ev=PageView&amp;noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body class="bg-white min-h-screen font-sans text-grey-darkest text-sm antialiased">
+    <div id="app">
+                <responsive-navigation>
+                    
+            <div class="flex flex-col lg:flex-row items-center justify-end w-full">
+                <a class="inline-block text-white p-4 rounded no-underline hover:opacity-75" href="../map.html">Sign up</a>
+
+                <a class="inline-block text-white lg:pl-4 rounded no-underline hover:opacity-75" href="../login.html">Log in</a>
+            </div>
+            </responsive-navigation>
+    
+    <header class="pt-24 text-center">
+        <a href="../index.html">
+            <img src="../images/logo-full.png" alt="Adopt-a-drain logo" class="inline-block w-48">
+        </a>
+                    <h1 class="
+                font-normal text-grey-darkest text-3xl lg:text-6xl mt-8 mb-8
+                pb-8 md:pb-0
+            ">
+                Reset Password
+            </h1>
+            </header>
+
+    <div class="bg-teal-lightest mt-16">
+            <div class="flex flex-col w-full max-w-lg md:mx-auto mt-20 lg:mt-32 px-4">
+        <div class="card-body">
+            
+            <form method="POST" action="email.html" aria-label="Reset Password">
+                <input type="hidden" name="_token" value="aIdbtKoEblR178oESmhvVpK2kTPXMCPZTXlMBK6L">
+                <div class="flex items-stretch mb-3">
+                    <label for="email" class="text-right text-grey-darker text-sm pt-2 pr-3 align-middle w-1/4">E-Mail Address</label>
+                    <div class="flex flex-col w-3/4">
+                        <input id="email" type="email" class="flex-grow h-8 px-2 border rounded border-grey-light" name="email" value="" required autofocus>
+                        
+                    </div>
+                </div>
+
+                <div class="w-3/4 ml-auto">
+                    <button type="submit" class="bg-green hover:bg-green-dark text-white text-sm font-semibold py-2 px-4 rounded mr-3">
+                        Send Password Reset Link
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="bg-teal-darker h-32"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+    var Ziggy = {
+        namedRoutes: {"nova.":{"uri":"nova\/password\/reset","methods":["POST"],"domain":null},"nova.login":{"uri":"nova\/login","methods":["POST"],"domain":null},"nova.logout":{"uri":"nova\/logout","methods":["GET","HEAD"],"domain":null},"nova.password.request":{"uri":"nova\/password\/reset","methods":["GET","HEAD"],"domain":null},"nova.password.email":{"uri":"nova\/password\/email","methods":["POST"],"domain":null},"nova.password.reset":{"uri":"nova\/password\/reset\/{token}","methods":["GET","HEAD"],"domain":null},"login":{"uri":"login","methods":["GET","HEAD"],"domain":null},"logout":{"uri":"logout","methods":["POST"],"domain":null},"register":{"uri":"register","methods":["GET","HEAD"],"domain":null},"password.request":{"uri":"password\/reset","methods":["GET","HEAD"],"domain":null},"password.email":{"uri":"password\/email","methods":["POST"],"domain":null},"password.reset":{"uri":"password\/reset\/{token}","methods":["GET","HEAD"],"domain":null},"password.update":{"uri":"password\/reset","methods":["POST"],"domain":null},"verification.notice":{"uri":"email\/verify","methods":["GET","HEAD"],"domain":null},"verification.verify":{"uri":"email\/verify\/{id}","methods":["GET","HEAD"],"domain":null},"verification.resend":{"uri":"email\/resend","methods":["GET","HEAD"],"domain":null},"home":{"uri":"\/","methods":["GET","HEAD"],"domain":null},"info":{"uri":"info","methods":["GET","HEAD"],"domain":null},"terms-of-use":{"uri":"terms-of-use","methods":["GET","HEAD"],"domain":null},"safety-information":{"uri":"safety-information","methods":["GET","HEAD"],"domain":null},"release-of-liability":{"uri":"release-of-liability","methods":["GET","HEAD"],"domain":null},"map":{"uri":"map","methods":["GET","HEAD"],"domain":null},"drains.show":{"uri":"drains\/{drain}","methods":["GET","HEAD"],"domain":null},"adoptions.guest":{"uri":"adoptions\/guest","methods":["POST"],"domain":null},"report.store":{"uri":"report\/store","methods":["POST"],"domain":null},"avatar.store":{"uri":"avatar","methods":["POST"],"domain":null},"dashboard":{"uri":"dashboard","methods":["GET","HEAD"],"domain":null},"edit-me":{"uri":"me","methods":["POST"],"domain":null},"avatar.update":{"uri":"{user}\/avatar","methods":["PATCH"],"domain":null},"user.avatar.delete":{"uri":"{user}\/avatar\/delete","methods":["POST"],"domain":null},"adoptions.edit":{"uri":"adoptions\/{adoption}\/edit","methods":["GET","HEAD"],"domain":null},"adoptions.create":{"uri":"adoptions\/create","methods":["GET","HEAD"],"domain":null},"adoptions.store":{"uri":"adoptions","methods":["POST"],"domain":null},"adoptions.update":{"uri":"adoptions\/{adoption}","methods":["PATCH"],"domain":null},"adoptions.unadopt":{"uri":"adoptions\/{adoption}\/unadopt","methods":["PATCH"],"domain":null},"adoptions.cleanings.index":{"uri":"adoptions\/{adoption}\/cleanings","methods":["GET","HEAD"],"domain":null},"adoptions.cleanings.store":{"uri":"adoptions\/{adoption}\/cleanings","methods":["POST"],"domain":null},"adoptions.cleanings.create":{"uri":"adoptions\/{adoption}\/cleanings\/create","methods":["GET","HEAD"],"domain":null},"adoptions.cleanings.edit":{"uri":"adoptions\/{adoption}\/cleanings\/{cleaning_id}\/edit","methods":["GET","HEAD"],"domain":null},"adoptions.cleanings.update":{"uri":"adoptions\/{adoption}\/cleanings\/{cleaning_id}\/update","methods":["PATCH"],"domain":null},"adoptions.cleanings.delete":{"uri":"adoptions\/{adoption}\/cleanings\/{cleaning_id}\/delete","methods":["DELETE"],"domain":null},"internalapi.drains.index":{"uri":"internal-api\/drains","methods":["GET","HEAD"],"domain":null},"internalapi.drains.show":{"uri":"internal-api\/drains\/{id}","methods":["GET","HEAD"],"domain":null}},
+        baseUrl: 'https://adopt-a-drain.org/',
+        baseProtocol: 'https',
+        baseDomain: 'adopt-a-drain.org',
+        basePort: false,
+        defaultParameters: []
+    };
+
+    !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define("route",[],t):"object"==typeof exports?exports.route=t():e.route=t()}(this,function(){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=0)}([function(e,t,r){"use strict";r.r(t);var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),o=function(){function e(t,r,n){if(function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,e),this.name=t,this.ziggy=n,this.route=this.ziggy.namedRoutes[this.name],void 0===this.name)throw new Error("Ziggy Error: You must provide a route name");if(void 0===this.route)throw new Error("Ziggy Error: route '"+this.name+"' is not found in the route list");this.absolute=void 0===r||r,this.domain=this.setDomain(),this.path=this.route.uri.replace(/^\//,"")}return n(e,[{key:"setDomain",value:function(){if(!this.absolute)return"/";if(!this.route.domain)return this.ziggy.baseUrl.replace(/\/?$/,"/");var e=(this.route.domain||this.ziggy.baseDomain).replace(/\/+$/,"");return this.ziggy.basePort&&e.replace(/\/+$/,"")===this.ziggy.baseDomain.replace(/\/+$/,"")&&(e=this.ziggy.baseDomain+":"+this.ziggy.basePort),this.ziggy.baseProtocol+"://"+e+"/"}},{key:"construct",value:function(){return this.domain+this.path}}]),e}();r.d(t,"default",function(){return c});var i=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},u="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},a=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),s=function(e){function t(e,r,n){var i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null;!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,t);var u=function(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}(this,(t.__proto__||Object.getPrototypeOf(t)).call(this));return u.name=e,u.absolute=n,u.ziggy=i||Ziggy,u.template=u.name?new o(e,n,u.ziggy).construct():"",u.urlParams=u.normalizeParams(r),u.queryParams=u.normalizeParams(r),u}return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}(t,String),a(t,[{key:"normalizeParams",value:function(e){return void 0===e?{}:((e="object"!==(void 0===e?"undefined":u(e))?[e]:e).hasOwnProperty("id")&&-1==this.template.indexOf("{id}")&&(e=[e.id]),this.numericParamIndices=Array.isArray(e),i({},e))}},{key:"with",value:function(e){return this.urlParams=this.normalizeParams(e),this}},{key:"withQuery",value:function(e){return i(this.queryParams,e),this}},{key:"hydrateUrl",value:function(){var e=this,t=this.urlParams,r=0,n=this.template.match(/{([^}]+)}/gi),o=!1;return n&&n.length!=Object.keys(t).length&&(o=!0),this.template.replace(/{([^}]+)}/gi,function(n,i){var u=n.replace(/\{|\}/gi,"").replace(/\?$/,""),a=e.numericParamIndices?r:u,s=e.ziggy.defaultParameters[u];if(s&&o&&(e.numericParamIndices?(t=Object.values(t)).splice(a,0,s):t[a]=s),r++,void 0!==t[a])return delete e.queryParams[a],t[a].id||encodeURIComponent(t[a]);if(-1===n.indexOf("?"))throw new Error("Ziggy Error: '"+u+"' key is required for route '"+e.name+"'");return""})}},{key:"matchUrl",value:function(){this.urlParams;var e=window.location.hostname+(window.location.port?":"+window.location.port:"")+window.location.pathname,t=this.template.replace(/(\{[^\}]*\})/gi,"[^/?]+").split("://")[1],r=e.replace(/\/?$/,"/");return new RegExp("^"+t+"/$").test(r)}},{key:"constructQuery",value:function(){if(0===Object.keys(this.queryParams).length)return"";var e="?";return Object.keys(this.queryParams).forEach(function(t,r){void 0!==this.queryParams[t]&&null!==this.queryParams[t]&&(e=0===r?e:e+"&",e+=t+"="+encodeURIComponent(this.queryParams[t]))}.bind(this)),e}},{key:"current",value:function(){var e=this,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=Object.keys(this.ziggy.namedRoutes).filter(function(r){return-1!==e.ziggy.namedRoutes[r].methods.indexOf("GET")&&new t(r,void 0,void 0,e.ziggy).matchUrl()})[0];return r?new RegExp(r.replace("*",".*").replace(".","."),"i").test(n):n}},{key:"parse",value:function(){this.return=this.hydrateUrl()+this.constructQuery()}},{key:"url",value:function(){return this.parse(),this.return}},{key:"toString",value:function(){return this.url()}},{key:"valueOf",value:function(){return this.url()}}]),t}();function c(e,t,r,n){return new s(e,t,r,n)}}]).default});
+</script>    <script>
+    var _umb = {
+        require: {
+            chrome: 55,
+            firefox: 47,
+            ie: 10.1,
+        }
+    };
+    (function(u) {
+        var s = document.createElement('script'); s.async = true; s.src = u;
+        var b = document.getElementsByTagName('script')[0]; b.parentNode.insertBefore(s, b);
+    })('//updatemybrowser.org/umb.js');
+    </script>
+    <script src="../js/app-id=047ed2b0a53a0a88dd7f.js"></script>
+    </body>
+</html>
